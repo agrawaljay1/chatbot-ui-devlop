@@ -1,0 +1,10 @@
+export type ModelProvider =
+  | "openai"
+  | "google"
+  | "labelbox"
+  | "anthropic"
+  | "mistral"
+  | "perplexity"
+  | "ollama"
+  | "openrouter"
+  | "custom"
